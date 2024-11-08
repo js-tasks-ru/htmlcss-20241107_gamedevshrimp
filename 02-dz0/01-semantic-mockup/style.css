@@ -1,0 +1,33 @@
+* {
+    color: white;
+}
+header {
+    text-align: center;
+}
+
+header > h1 {
+    background-color:  #FF0000;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+header > nav {
+    padding: 0.65em;
+    background-color: #FF9900;
+}
+
+main {
+    background-color: #04A142;
+    padding: 5px;
+}
+
+main > article {
+    background-color: #1319FF;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+}
+footer {
+    background-color: #BD00FF;
+    text-align: center;
+    font-size: 2rem;
+}
