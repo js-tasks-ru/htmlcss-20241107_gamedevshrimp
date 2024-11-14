@@ -1,1 +1,25 @@
 /* Стилизация кнопки */
+button {
+    width: 189px;
+    height: 48px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: center;
+}
+
+.button__primary {
+    background: #4263EB;
+    opacity: 100%;
+}
+
+.button__primary:hover {
+    background: #2342C0;
+}
+
+.button__primary:disabled {
+    opacity: 50%;
+}
