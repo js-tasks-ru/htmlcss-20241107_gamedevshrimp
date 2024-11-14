@@ -9,17 +9,20 @@ button {
     font-size: 16px;
     line-height: 18.75px;
     text-align: center;
+    transition: background 300ms ease-in-out
 }
 
 .button__primary {
-    background: #4263EB;
+    background: var(--primary-blue);
     opacity: 100%;
 }
 
 .button__primary:hover {
-    background: #2342C0;
+    background: var(--dark-blue);
+    cursor: pointer;
 }
 
 .button__primary:disabled {
     opacity: 50%;
+    cursor: not-allowed;
 }
