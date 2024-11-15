@@ -1,0 +1,14 @@
+.header {
+    box-sizing: content-box;
+    padding-top: 96px;
+    padding-bottom: 77px;
+}
+
+.header__title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 64px;
+    color: var(--black);
+    margin: 0;
+}
