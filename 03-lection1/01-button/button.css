@@ -4,6 +4,7 @@
     border: 0px;
     color: #FFFFFF;
     border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 18.75px;
@@ -18,7 +19,6 @@
 
 .button_primary {
     background: #4263EB;
-    opacity: 100%;
     transition: background 300ms ease-in-out;
 }
 
@@ -29,7 +29,6 @@
 
 .button_secondary {
     background: var(--purple);
-    opacity: 100%;
     transition: background 300ms ease-in-out;
 }
 
@@ -42,7 +41,6 @@
     color: var(--grey-3);
     background: none;
     border: 1px solid var(--grey-3);
-    opacity: 100%;
     transition: color 300ms ease-in-out, border-color 300ms ease-in-out;
 }
 
@@ -51,9 +49,4 @@
     border-color: var(--black);
     cursor: pointer;
     
-}
-
-.button_alternate:disabled {
-    opacity: 30%;
-    pointer-events: none
 }
