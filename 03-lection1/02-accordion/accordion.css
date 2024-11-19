@@ -1,4 +1,3 @@
-/* Стилизация аккордеона */
 .accordion {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -7,19 +6,13 @@
 }
 
 .accordion__item {
-    box-sizing: content-box;
-    min-height: 144px;
-
     border: 1px solid #ACB5BD;
     border-radius: 8px;
-
-    padding-top: 24px;
     padding-left: 32px;
-    padding-right: 48.69px;
     margin-bottom: 8px;
 }
 
-.accordion:last-of-type {
+.accordion__item:last-of-type {
     margin-bottom: 0;
 }
 
@@ -33,8 +26,11 @@ summary {
 
 .accordion__summary {
     color: var(--black);
+    padding-top: 24px;
+    padding-bottom: 16px;
 }
 
 .accordion__content {
     color: var(--grey-4);
+    padding-bottom: 32px;
 }
