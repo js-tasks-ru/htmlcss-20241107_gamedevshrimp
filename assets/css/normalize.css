@@ -44,7 +44,6 @@ h1 {
 
 p {
   margin: 0;
-  padding: 0;
 }
 
 /* Grouping content
@@ -332,6 +331,7 @@ details {
 
 summary {
   display: list-item;
+  list-style: none;
 }
 
 /* Misc
