@@ -331,6 +331,7 @@ details {
 
 summary {
   display: list-item;
+  list-style: none;
 }
 
 /* Misc
