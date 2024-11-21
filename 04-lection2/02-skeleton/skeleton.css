@@ -9,12 +9,23 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-
 }
 
 .skeleton__block {
     background-color: #DDE2E5;
     height: 20px;
+}
+
+.skeleton__block_big {
+    width: 100%;
+}
+
+.skeleton__block_medium {
+    width: 50%;
+}
+
+.skeleton__block_small {
+    width: 35%;
 }
 
 .skeleton__circle {
