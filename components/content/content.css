@@ -1,4 +1,10 @@
 .content {
-    padding: 100px 0;
+    padding: 68px 165px;
+    padding-bottom: 204px;
     background: #F9FAFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
