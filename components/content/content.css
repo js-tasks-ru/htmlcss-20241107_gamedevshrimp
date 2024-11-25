@@ -1,10 +1,5 @@
 .content {
-    padding: 68px 165px;
+    padding-top: 68px;
     padding-bottom: 204px;
     background: #F9FAFC;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
 }
