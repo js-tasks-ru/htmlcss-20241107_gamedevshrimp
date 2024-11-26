@@ -3,3 +3,10 @@
     padding-bottom: 204px;
     background: #F9FAFC;
 }
+
+.content__preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
