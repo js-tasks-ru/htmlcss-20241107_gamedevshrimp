@@ -5,12 +5,14 @@
     margin: auto;
     width: 100%;
     max-width: 300px;
-    font-family: 'Inter', sans-serif;
     text-align: center;
+    color: #334D6E;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .calendar__title {
-    color: #334D6E;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -28,39 +30,31 @@
     height: 100%;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+}
+
+.calendar__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
 }
 
 
 .calendar__weekday {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 20px;
+    align-self: flex-start;
+    font-family: 'Inter', sans-serif;
     color: #90A0B7;
-}
-
-.calendar__date {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: #334D6E;
-    align-self: center;
-    justify-content: center;
-}
-
-.calendar__date_selected-corner {
-    color: white;
 }
 
 .calendar__selector {
     background-color: hsla(230, 80%, 80%, 0.2);
-    align-self: stretch;
-    display: flex;
-    align-items: center;
 } 
 
 .calendar__corner-selector {
     background-color: #4263EB;
+    color: white;
     display: flex;
     justify-content: center;
 } 
