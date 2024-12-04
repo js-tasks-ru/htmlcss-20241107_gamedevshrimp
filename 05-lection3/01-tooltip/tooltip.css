@@ -4,7 +4,6 @@
 }
 
 .tooltip__trigger {
-    margin: auto;
 }
 
 .tooltip__trigger:hover ~ .tooltip__bubble {
@@ -39,5 +38,5 @@
     left:50%;
     transform: translateX(-50%);
     border: 6px solid transparent;
-    border-top-color: #4263EB;;
+    border-top-color: #4263EB;
 } 
