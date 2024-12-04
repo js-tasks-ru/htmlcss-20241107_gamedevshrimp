@@ -8,6 +8,10 @@
     justify-content: center;
 }
 
+.footer_template {
+    height: 130px;
+}
+
 .footer__title {
     font-weight: 500;
     font-size: 38px;
