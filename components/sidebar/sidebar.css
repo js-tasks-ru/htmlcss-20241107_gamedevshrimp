@@ -1,0 +1,30 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 229px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--black);
+}
+
+.sidebar__title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    padding-bottom: 16px;
+}
+
+.template__sidebar_text {
+}
+
+.template__sidebar_text_selected {
+    color: #D84910;
+}
+
+.sidebar__homelink {
+    padding-top: 30px;
+}

@@ -9,7 +9,15 @@
 }
 
 .footer_template {
-    height: 130px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--grey-3);
+    padding-bottom: 56px;
+    background: #F9FAFC;
 }
 
 .footer__title {
