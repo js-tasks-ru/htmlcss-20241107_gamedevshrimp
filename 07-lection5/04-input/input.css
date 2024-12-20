@@ -4,10 +4,12 @@
 }
 
 .text-input__state {
+  position: relative;
 }
 
 .text-input__label {
   display: inline-block;
+  margin-bottom: 5px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
@@ -31,7 +33,7 @@
   padding: 17px 24px 13px;
 }
 
-.text-input__input_invalid {
+.text-input_invalid {
   border-color: #f03d3e;
 }
 
@@ -39,12 +41,18 @@
   width: 24px;
   height: 24px;
   position: absolute;
+  display: none;
   top: 50%;
-  transform: translateX(calc(-100% - 12px));
+  right: 10px;
+  transform: translateY(-50%);
 }
 
-.text-input__icon_invalid {
-  background-image: url('../../assets/images/icons.svg#input-error');
+.text-input__input.text-input_success ~ .text-input__icon_success {
+  display: inline;
+}
+
+.text-input__input.text-input_invalid ~ .text-input__icon_invalid {
+  display: inline;
 }
 
 .text-input__input::placeholder {
