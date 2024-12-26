@@ -47,11 +47,11 @@
   transform: translateY(-50%);
 }
 
-.text-input__input.text-input_success ~ .text-input__icon_success {
+.text-input_success ~ .text-input__icon_success {
   display: inline;
 }
 
-.text-input__input.text-input_invalid ~ .text-input__icon_invalid {
+.text-input_invalid ~ .text-input__icon_invalid {
   display: inline;
 }
 
