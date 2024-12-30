@@ -13,6 +13,10 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
+hr {
+  border-top: 1px solid var(--grey-2);
+}
+
 /* Sections
    ========================================================================== */
 
@@ -46,8 +50,17 @@ h1 {
   margin: 0.67em 0;
 }
 
-p {
+p,
+h3,
+h4,
+h5 {
   margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* Grouping content
@@ -57,12 +70,6 @@ p {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-
-hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
-}
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
