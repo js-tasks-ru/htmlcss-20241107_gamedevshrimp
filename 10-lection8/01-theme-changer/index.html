@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <!-- Пример использования theme-changer -->
 <html lang="ru">
-    <head>
-        <style>
-            html[data-theme-dark] {
-                background: #000;
-            }
-        </style>
-        <script defer src="./theme-changer.js"></script>
-    </head>
-    <body>
-        <input type="checkbox" id="theme-changer">
-    </body>
+  <head>
+    <style>
+      :root {
+        --text-color: #000;
+        --border-color: #000;
+      }
+
+      html[data-theme-dark] {
+        background: #000;
+        --text-color: #ffffff75;
+        --border-color: #ffffff75;
+      }
+
+      .box {
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        color: var(--text-color);
+        padding: 16px;
+        text-align: center;
+      }
+    </style>
+    <link rel="stylesheet" href="theme-changer.css" />
+    <script defer src="./theme-changer.js"></script>
+  </head>
+  <body>
+    <input type="checkbox" id="theme-changer" />
+    <div class="box">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quia?
+    </div>
+  </body>
 </html>
